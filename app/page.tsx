@@ -1,8 +1,9 @@
+import {Banner} from "@/src/widgets/banner/Banner";
 
 export default function Home() {
   return (
-    <div >
-      <h1 className={"text-red-400 font-"}>Unbounded</h1>
+    <div className={"container"}>
+      <Banner />
     </div>
   );
 }
